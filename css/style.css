@@ -14,7 +14,7 @@
 body {
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 1.8;
   color: rgba(0, 0, 0, 0.7); }
   @media screen and (max-width: 992px) {
@@ -25,6 +25,7 @@ a {
   color: #2c98f0;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
+  margin-right: 7px; /*adjust spacing between icons */
   transition: 0.5s; }
   a:hover, a:active, a:focus {
     color: #2c98f0;
@@ -110,7 +111,7 @@ figure {
   #colorlib-aside #colorlib-logo {
     text-align: right;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 28px;
     margin-bottom: .5em;
     display: block;
     width: 100%; }
@@ -135,7 +136,7 @@ figure {
         margin: 0 0 10px 0;
         padding: 0;
         list-style: none;
-        font-size: 12px;
+        font-size: 15px;
         font-weight: 500;
         text-transform: uppercase;
         letter-spacing: 1px; }
@@ -404,7 +405,7 @@ body.offcanvas {
   position: relative; }
 
 .colorlib-heading {
-  font-size: 18px;
+  font-size: 25px;
   margin-bottom: 4em;
   font-weight: 700;
   text-transform: uppercase;
@@ -420,7 +421,7 @@ body.offcanvas {
 .heading-meta {
   margin-bottom: 15px;
   display: block;
-  font-size: 10px;
+  font-size: 16px;
   text-transform: uppercase;
   color: #999999;
   font-weight: 500;
